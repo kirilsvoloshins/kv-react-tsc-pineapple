@@ -1,6 +1,6 @@
-import pineappleLogo from './media/pineapple_logo.png'
 import React from 'react';
 import './App.css';
+import NavBar from "./components/NavBar.js"
 
 // import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -8,18 +8,7 @@ function App() {
   return (
     <div className="body-wrapper">
       <div className="left-side">
-        <div className="nav-bar">
-          <div className="logo">
-            <img src={pineappleLogo} alt="pineapple. logo"
-              style={{ width: "25px", height: "40px", marginRight: "15px" }} />
-            pineapple.
-          </div>
-          <div className="nav-links">
-            <a href="#">About</a>
-            <a href="#">How it works</a>
-            <a href="#">Contact</a>
-          </div>
-        </div>
+        <NavBar />
         <div className="main-field">
           <div className="header-main">
             Subscribe to newsletter
