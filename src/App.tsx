@@ -1,3 +1,4 @@
+import pineappleLogo from './media/pineapple_logo.png'
 import React from 'react';
 import './App.css';
 
@@ -9,7 +10,7 @@ function App() {
       <div className="left-side">
         <div className="nav-bar">
           <div className="logo">
-            <img src="./media/pineapple_logo.png" alt="pineapple. logo"
+            <img src={pineappleLogo} alt="pineapple. logo"
               style={{ width: "25px", height: "40px", marginRight: "15px" }} />
             pineapple.
           </div>
