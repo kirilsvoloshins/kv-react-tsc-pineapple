@@ -24,6 +24,8 @@ export const StyledSocialLink = styled.div`
     justify-content: center;
     align-items: center;
 
+    cursor:pointer;
+
     &:hover{
         fill:white;
         background: ${({ website }) => getHoverBackgroundByWebsite(website)};
