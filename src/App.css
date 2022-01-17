@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 1px solid red;
+}
+
+.body-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side {
+    width: 680px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+    /* raising the input above the background image */
+    z-index: 9000;
+}
+
+.right-side {
+    background-image: url(./media/pineapple_background.png);
+    height: 1080px;
+    /* making the right side take the rest free space. */
+    flex: 1;
+}
+
+.nav-bar {
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6A707B;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.main-field {
+    margin-top: 225px;
+    margin-left: 140px;
+    width: 400px;
+}
+
+.header-main {
+    font-family: Georgia;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.subheading {
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 15px;
+    color: #6A707B;
+
+}
+
+input[type="text"] {
+    height: 70px;
+    background: #FFFFFF;
+    border: 1px solid #E3E3E4;
+    box-sizing: border-box;
+    width: 663px;
+    border-left: 4px solid #4066A5;
+
+    padding-left: 40px;
+    margin-left: -42px;
+
+
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.tos {
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 53px;
+    margin-bottom: 50px;
+}
+
+.line {
+    margin-bottom: 1px solid #E3E3E4;
+}
