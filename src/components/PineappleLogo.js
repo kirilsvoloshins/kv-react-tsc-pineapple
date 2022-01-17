@@ -1,4 +1,4 @@
-import { StyledPineappleLogo } from "./components/styled/PineappleLogo.styled"
+import { StyledPineappleLogo } from "./styled/PineappleLogo.styled"
 import pineappleLogoImage from './media/pineapple_logo.png'
 
 export default function PineappleLogo() {
@@ -6,7 +6,9 @@ export default function PineappleLogo() {
         <StyledPineappleLogo>
             <img src={pineappleLogoImage} alt="pineapple. logo"
                 style={{ width: "25px", height: "40px", marginRight: "15px" }} />
-            pineapple.
+            <span style={{ marginTop: "10px" }}>
+                pineapple.
+            </span>
         </StyledPineappleLogo>
     )
 }

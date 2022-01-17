@@ -1,16 +1,16 @@
-import { StyledNavBar } from "./components/styled/NavBar.styled";
-import PineappleLogo from "./components/PineappleLogo"
-
+import { StyledNavBar } from "./styled/NavBar.styled"
+import { NavLinks } from "./styled/NavLinks.styled"
+import PineappleLogo from "./PineappleLogo.js"
 
 export default function NavBar() {
     return (
         <StyledNavBar>
             <PineappleLogo />
-            <div className="nav-links">
+            <NavLinks>
                 <a href="#">About</a>
                 <a href="#">How it works</a>
                 <a href="#">Contact</a>
-            </div>
+            </NavLinks>
         </StyledNavBar>
     )
 }
