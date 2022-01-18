@@ -9,4 +9,9 @@ export const StyledSocials = styled.div`
     display: flex;
     justify-content: center;
     gap: 20px;
+
+    @media (max-width:${({ theme }) => theme.mobile}){
+        gap: 10px;
+        padding-top: 20px;
+    }
 `;

@@ -40,10 +40,10 @@ export default function SubscriptionBox() {
 
     return (
         <>
-            <div className="header-main" style={{ marginTop: "232px" }}>
+            <div className="header-main sub-heading-main" >
                 Subscribe to newsletter
             </div>
-            <div className="subheading" style={{ marginTop: "17px", marginBottom: "50px" }}>
+            <div className="subheading sub-subheading">
                 Subscribe to our newsletter and get 10% discount on pineapple glasses.
             </div>
             <div>
@@ -55,7 +55,8 @@ export default function SubscriptionBox() {
             </div>
 
             <div className="tos">
-                <input ref={checkboxRef} onClick={() => updateInputBasedOnError()} type="checkbox" name="" id="" style={{ height: "26px", width: "26px", padding: "0", margin: "0" }} />
+                <input ref={checkboxRef} onClick={() => updateInputBasedOnError()} type="checkbox" name="" id="agreeToTermsOfService" style={{ height: "26px", width: "26px", padding: "0", margin: "0" }} />
+                <label for="agreeToTermsOfService" class="fas"></label>
                 <span style={{ marginLeft: "15px" }}>I agree to <a href="#">terms of service</a></span>
             </div>
         </>

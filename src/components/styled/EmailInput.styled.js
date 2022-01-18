@@ -28,4 +28,10 @@ export const StyledEmailInput = styled.input`
         box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
         outline:none;
     }
+
+    @media (max-width:${({ theme }) => theme.mobile}){
+        width:100%;
+        height: 60px;
+        margin:auto;
+    }
 `;
