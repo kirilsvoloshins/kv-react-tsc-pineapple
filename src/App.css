@@ -40,7 +40,7 @@ a {
 }
 
 .main-field {
-    margin-top: 232px;
+
     margin-left: 140px;
     width: 400px;
 }
@@ -125,4 +125,8 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 3em;
+}
+
+#errorMessageArea {
+    color: red;
 }
