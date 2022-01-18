@@ -7,8 +7,6 @@ export const NavLinks = styled.div`
     margin-top: 15px;
     color: #6A707B;
 
-    
-
     @media (max-width:${({ theme }) => theme.mobile}){
         background-color: #FFFFFF;
         height: 66px;

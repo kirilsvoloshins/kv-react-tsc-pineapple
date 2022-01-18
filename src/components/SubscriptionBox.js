@@ -10,7 +10,6 @@ export default function SubscriptionBox() {
     const [isFormSubmissionPermitted, setFormSubmissionPermission] = useState(false);
     const [isSubscriptionSuccessful, setSubscriptionSuccessful] = useState(false);
 
-
     // test if email input value matches the "mail@website.something" pattern
     const validateInputValue = newInputValue => new RegExp(/.*[@].*[.](?=.*[a-z])/g).test(newInputValue);
 
