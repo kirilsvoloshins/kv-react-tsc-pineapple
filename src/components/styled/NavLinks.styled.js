@@ -5,4 +5,5 @@ export const NavLinks = styled.div`
     gap: 30px;
     align-items: center;
     margin-top: 15px;
+    color: #6A707B;
 `;

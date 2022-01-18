@@ -1,8 +1,7 @@
 import { StyledEmailInput } from "./styled/EmailInput.styled"
 import ic_arrow from "./media/ic_arrow.svg"
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import SubscriptionSuccess from "./SubscriptionSuccess";
-
 
 export default function SubscriptionBox() {
     const emailInput = useRef(null);
@@ -44,7 +43,7 @@ export default function SubscriptionBox() {
             <div className="header-main" style={{ marginTop: "232px" }}>
                 Subscribe to newsletter
             </div>
-            <div className="subheading" style={{ marginBottom: "50px" }}>
+            <div className="subheading" style={{ marginTop: "17px", marginBottom: "50px" }}>
                 Subscribe to our newsletter and get 10% discount on pineapple glasses.
             </div>
             <div>

@@ -17,6 +17,7 @@ const getClickedBackgroundByWebsite = website => {
 export const StyledSocialLink = styled.div`
     width: 46px; 
     height: 46px;
+    box-sizing: border-box;
     border-radius: 30px;
     border: 2px solid #E3E3E4;
 
@@ -27,14 +28,12 @@ export const StyledSocialLink = styled.div`
     cursor:pointer;
 
     &:hover{
-        fill:white;
         background: ${({ website }) => getHoverBackgroundByWebsite(website)};
         border: 2px solid ${({ website }) => getHoverBackgroundByWebsite(website)} ;
         box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
     }
 
     &:active{
-        fill:white;
         background: ${({ website }) => getClickedBackgroundByWebsite(website)};
         border: 2px solid ${({ website }) => getClickedBackgroundByWebsite(website)};
         box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
