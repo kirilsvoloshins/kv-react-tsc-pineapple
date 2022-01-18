@@ -4,9 +4,9 @@ import React, { useRef } from "react";
 
 
 export default function SubscriptionBox() {
-    const checkboxRef = useRef(null);
-    const errorMessageArea = useRef(null);
     const emailInput = useRef(null);
+    const errorMessageArea = useRef(null);
+    const checkboxRef = useRef(null);
 
     // test if email input value matches the "mail@website.something" pattern
     const validateInputValue = newInputValue => new RegExp(/.*[@].*[.](?=.*[a-z])/g).test(newInputValue);
